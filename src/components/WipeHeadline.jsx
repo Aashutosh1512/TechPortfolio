@@ -30,7 +30,7 @@ export default function WipeHeadline({ as: Tag = 'h2', className = '', id, onCli
       data-headline="true"
       className={`${className} ${active ? 'wipe-active' : ''}`}
     >
-      <span className="wipe-wrapper">
+      <span className="wipe-wrapper max-w-full">
         <span className="wipe-text">{children}</span>
         <span className="wipe-bar" aria-hidden="true" />
       </span>
