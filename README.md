@@ -63,3 +63,5 @@ aashutosh-goyal-portfolio/
    npm run build
    npm run preview
    ```
+
+   cheers...
