@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 
 
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS === 'true' ? '/TheLivingVernacular/' : '/',
+  base: process.env.GITHUB_ACTIONS === 'true' ? '/TechPortfolio/' : '/',
   plugins: [react()],
   server: { port: 5173, open: true }
 });
